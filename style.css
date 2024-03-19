@@ -310,6 +310,10 @@ h1 {
   .register {
     background-color: #9824D0;
     border-color: #9824D0;
+    height: 75px;
+    width: 200px;
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
   }
 
   .register:hover {

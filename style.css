@@ -1,5 +1,6 @@
 body {
     margin: 0px;
+    background: linear-gradient(90deg, #0A0A2C 0.35%, #280C34 99.64%);
 }
 
 h1 {
@@ -8,13 +9,19 @@ h1 {
 
 .landing {
     width: auto;
-    height: 100vh;
-    background-image: linear-gradient(to right top, #0a0a2c, #110c2f, #180d31, #200d33, #270c34);
+    height: auto;
+    margin-bottom: 50px;
 }
 
 .logo-p {
     color: white;
   }
+
+  .main-page {
+    padding-top: 20vh;
+    color: white;
+  }
+
   
   .header-area {
     position: fixed;
@@ -207,6 +214,269 @@ h1 {
     color: #8805AB;
   }
   
+
+
+
+  .line1 {
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0px 0px 40px;
+  }
+
+  .line2 {
+    font-size: 40px;
+    margin: 0px 0px 40px;
+  }
+
+  .info {
+    font-size: 20px;
+    line-height: 40px;
+    margin: 0px 0px 40px;
+  }
+
+  .register {
+    border-radius: 40px;
+    background: var(--rndo, linear-gradient(90deg, #2F99FF 0%, #4A8FE3 17.6%, #4A8FD4 39.1%, #537ED2 60%, #9346D3 78.5%, #A037AB 100%));
+    height: 75px;
+    width: 250px;
+    font-size: 20px;
+    border: none;
+    font-weight: bolder;
+  }
+
+  .register:hover {
+    /* background-color: #8805AB;
+    border-color: #8805AB; */
+  }
+
+  .features-page {
+    padding-top: 75px;
+    color: white;
+  }
+
+  .features-header {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .features-h1 {
+    font-size: 65px;
+    font-weight: bolder;
+  }
+
+  .features-p {
+    font-size: 20px;
+  }
+
+  .features-image-1 {
+    width: 270px;
+    height: 270px;;
+  }
+  .features-image-2 {
+    width: 370px;
+    height: 270px;;
+  }
+  .features-image-3 {
+    width: 350px;
+    height: 270px;;
+  }
+  .features-image-4 {
+    width: 270px;
+    height: 270px;;
+  }
+  .features-image-5 {
+    width: 270px;
+    height: 270px;;
+  }
+
+  .features {
+    text-align: center;
+  }
+
+  .square-number {
+    height: 30px;
+  }
+
+  .features-text {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+
+  .home-text {
+    padding: 40px;
+  }
+
+  .middle-feature {
+    padding: 0px;
+  }
+
+  .timeline-page {
+    color: white;
+  }
+
+  .timeline-header {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 40px 0px;
+  }
+
+  .timeline-h1 {
+    font-size: 65px;
+    font-weight: bolder;
+  }
+
+  .timeline-p {
+    font-size: 20px;
+  }
+
+
+  .timeline{
+    position:relative;
+    margin:50px auto;
+    padding:40px 0;
+    width:1000px;
+    box-sizing:border-box;
+  }
+  .timeline:before{
+    content:'';
+    position:absolute;
+    left:50%;
+    width:2px;
+    height:100%;
+    background:#c5c5c5;
+  }
+  .timeline ul{
+    padding:0;
+    margin:0;
+  }
+  .timeline ul li{
+    list-style:none;
+    position:relative;
+    width:50%;
+    padding:20px 40px;
+    box-sizing:border-box;
+  }
+  .timeline ul li:nth-child(odd){
+    float:left;
+    text-align:right;
+    clear:both;
+  }
+  .timeline ul li:nth-child(even){
+    float:right;
+    text-align:left;
+    clear:both;
+  }
+  .content{
+    padding-bottom:20px;
+  }
+  .timeline ul li:nth-child(odd):before
+  {
+    content:'';
+    position:absolute;
+    width:10px;
+    height:10px;
+    top:24px;
+    right:-6px;
+    background:#2F99FF;
+    border-radius:50%;
+    box-shadow:0 0 0 3px #2F99FF;
+  }
+  .timeline ul li:nth-child(even):before
+  {
+    content:'';
+    position:absolute;
+    width:10px;
+    height:10px;
+    top:24px;
+    left:-4px;
+    background:#2F99FF;
+    border-radius:50%;
+    box-shadow:0 0 0 3px #2F99FF;
+  }
+  .timeline ul li h3{
+    padding:0;
+    margin:0;
+    color:#2F99FF;
+    font-weight:600;
+  }
+  .timeline ul li p{
+    margin:10px 0 0;
+    padding:0;
+  }
+  .timeline ul li .time h4{
+    margin:0;
+    padding:0;
+    font-size:14px;
+  }
+  .timeline ul li:nth-child(odd) .time
+  {
+    position:absolute;
+    top:12px;
+    right:-165px;
+    margin:0;
+    padding:8px 16px;
+    background:#2F99FF;
+    color:#fff;
+    border-radius:18px;
+    box-shadow:0 0 0 3px #2F99FF;
+  }
+  .timeline ul li:nth-child(even) .time
+  {
+    position:absolute;
+    top:12px;
+    left:-165px;
+    margin:0;
+    padding:8px 16px;
+    background:#2F99FF;
+    color:#fff;
+    border-radius:18px;
+    box-shadow:0 0 0 3px #2F99FF;
+  }
+  @media(max-width:1000px)
+  {
+    .timeline{
+      width:100%;
+    }
+  }
+  @media(max-width:767px){
+    .timeline{
+      width:100%;
+      padding-bottom:0;
+    }
+    h1{
+      font-size:40px;
+      text-align:center;
+    }
+    .timeline:before{
+      left:20px;
+      height:100%;
+    }
+    .timeline ul li:nth-child(odd),
+    .timeline ul li:nth-child(even)
+    {
+      width:100%;
+      text-align:left;
+      padding-left:50px;
+      padding-bottom:50px;
+    }
+    .timeline ul li:nth-child(odd):before,
+    .timeline ul li:nth-child(even):before
+    {
+      top:-18px;
+      left:16px;
+    }
+    .timeline ul li:nth-child(odd) .time,
+    .timeline ul li:nth-child(even) .time{
+      top:-30px;
+      left:50px;
+      right:inherit;
+    }
+  }
+
+
+
   @media (max-width: 1200px) {
     .header-area .main-nav .nav li {
       padding-left: 12px;
@@ -217,7 +487,12 @@ h1 {
     }
   }
   
-  @media (max-width: 991px) {
+  @media (max-width: 1100px) {
+
+    .main-page {
+      padding-top: 15vh;
+    }
+
     .header-area {
       padding: 0px 15px;
       height: 80px;
@@ -278,45 +553,30 @@ h1 {
     .header-area .main-nav .nav li a:hover {
       background: #eee !important;
     }
+
+    .person-image {
+      width: 300px;
+    }
+
+    body {
+      align-items: center;
+      text-align: center;
+    }
+
+    .line1 {
+      font-size: 50px;
+    }
+
+    .line2 {
+      font-size: 30px;
+    }
+
+    
+    
   }
   
   @media (min-width: 992px) {
     .header-area .main-nav .nav {
       display: flex !important;
     }
-  }
-  
-  .main-page {
-    padding-top: 25vh;
-    color: white;
-  }
-
-  .line1 {
-    font-size: 80px;
-    font-weight: bold;
-    margin: 0px 0px 40px;
-  }
-
-  .line2 {
-    margin: 0px 0px 40px;
-  }
-
-  .info {
-    font-size: 15px;
-    line-height: 40px;
-    margin: 0px 0px 40px;
-  }
-
-  .register {
-    background-color: #9824D0;
-    border-color: #9824D0;
-    height: 75px;
-    width: 200px;
-    margin: 20px 0px 0px 0px;
-    font-size: 20px;
-  }
-
-  .register:hover {
-    background-color: #8805AB;
-    border-color: #8805AB;
   }

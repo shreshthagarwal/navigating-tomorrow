@@ -274,7 +274,7 @@ h1 {
     height: 270px;;
   }
   .features-image-2 {
-    width: 370px;
+    width: 350px;
     height: 270px;;
   }
   .features-image-3 {
@@ -320,6 +320,7 @@ h1 {
     width: 100%;
     height: auto;
     margin: 40px 0px;
+    padding: 0px 30px;
   }
 
   .timeline-h1 {
@@ -379,9 +380,9 @@ h1 {
     height:10px;
     top:24px;
     right:-6px;
-    background:#2F99FF;
+    background:#AB23D2;
     border-radius:50%;
-    box-shadow:0 0 0 3px #2F99FF;
+    box-shadow:0 0 0 3px #AB23D2;
   }
   .timeline ul li:nth-child(even):before
   {
@@ -391,14 +392,14 @@ h1 {
     height:10px;
     top:24px;
     left:-4px;
-    background:#2F99FF;
+    background:#AB23D2;
     border-radius:50%;
-    box-shadow:0 0 0 3px #2F99FF;
+    box-shadow:0 0 0 3px #AB23D2;
   }
   .timeline ul li h3{
     padding:0;
     margin:0;
-    color:#2F99FF;
+    color:#AB23D2;
     font-weight:600;
   }
   .timeline ul li p{
@@ -417,10 +418,10 @@ h1 {
     right:-165px;
     margin:0;
     padding:8px 16px;
-    background:#2F99FF;
+    background:#AB23D2;
     color:#fff;
     border-radius:18px;
-    box-shadow:0 0 0 3px #2F99FF;
+    box-shadow:0 0 0 3px #AB23D2;
   }
   .timeline ul li:nth-child(even) .time
   {
@@ -429,11 +430,49 @@ h1 {
     left:-165px;
     margin:0;
     padding:8px 16px;
-    background:#2F99FF;
+    background:#AB23D2;
     color:#fff;
     border-radius:18px;
-    box-shadow:0 0 0 3px #2F99FF;
+    box-shadow:0 0 0 3px #AB23D2;
   }
+
+  .speakers {
+  padding-top: 40px;
+    color: white;
+  }
+
+  .speakers-header {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    margin: 40px 0px;
+    padding: 0px 30px;
+  }
+
+  .speakers-h1 {
+    font-size: 65px;
+    font-weight: bolder;
+  }
+
+  .speakers-p {
+    font-size: 20px;
+  }
+
+  .speaker-table {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+  }
+
+
   @media(max-width:1000px)
   {
     .timeline{
@@ -555,7 +594,7 @@ h1 {
     }
 
     .person-image {
-      width: 300px;
+      width: 350px;
     }
 
     body {
@@ -571,6 +610,13 @@ h1 {
       font-size: 30px;
     }
 
+    .speaker-table {
+      width: 300px;
+    }
+
+    .features-h1, .timeline-h1, .speakers-h1 {
+      font-size: 50px;
+    }
     
     
   }

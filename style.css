@@ -183,7 +183,7 @@ h1 {
     -ms-transform: translateY(6px) translateX(1px) rotate(45deg);
     -webkit-transform: translateY(6px) translateX(1px) rotate(45deg);
     transform: translateY(6px) translateX(1px) rotate(45deg);
-    background-color: #C6A064;
+    background-color: #4A8FE3;
   }
   
   .header-area .main-nav .menu-trigger.active span:after {
@@ -191,7 +191,7 @@ h1 {
     -ms-transform: translateY(-6px) translateX(1px) rotate(-45deg);
     -webkit-transform: translateY(-6px) translateX(1px) rotate(-45deg);
     transform: translateY(-6px) translateX(1px) rotate(-45deg);
-    background-color: #C6A064;
+    background-color: #4A8FE3;
   }
   
   .header-area.header-sticky {
@@ -242,11 +242,6 @@ h1 {
     font-size: 20px;
     border: none;
     font-weight: bolder;
-  }
-
-  .register:hover {
-    /* background-color: #8805AB;
-    border-color: #8805AB; */
   }
 
   .features-page {

@@ -215,6 +215,13 @@ h1 {
   }
   
 
+  .bvp-logo {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+
 
 
   .line1 {
@@ -595,6 +602,10 @@ h1 {
 
     .person-image {
       width: 350px;
+    }
+
+    .bvp-logo {
+      width: 95%;
     }
 
     body {
